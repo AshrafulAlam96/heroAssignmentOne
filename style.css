@@ -8,7 +8,7 @@ body {
 
 /* Banner section */
 .banner {
-  background: url('/Assigment01/Assets/Hero-bg.png') center center no-repeat;
+  background: url('/heroAssignmentOne/Assets/Hero-bg.png') center center no-repeat;
   background-size: cover;
   padding: 40px 20px;
   /* min-height: 100vh; */
@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 1140px; */
+  max-width: 1140px;
   margin: 0 200px;
 }
 
@@ -41,11 +41,17 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.5s ease;
 }
+.signup-btn:hover {
+      background-color: #fb5534; /* Darker green on hover */
+    }
 
 /* Centered Content */
 .banner-content {
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .banner-content h1 {
@@ -64,8 +70,75 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.5s ease;
+}
+.cta-btn:hover {
+      background-color: #fb5534; /* Darker green on hover */
+    }
+
+
+/* Action Section */
+.action-section {
+  background-color: #f5f7fe;
+  padding: 80px 20px;
 }
 
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.action-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.action-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1c1c1e;
+}
+
+.action-text p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.action-btn {
+  background-color: #581845;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.5s ease;
+}
+.action-btn:hover {
+      background-color: #fb5534; /* Darker green on hover */
+    }
+
+
+.action-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.action-image img {
+  max-width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
 
 /* Responsive */
 @media (max-width: 768px) {
