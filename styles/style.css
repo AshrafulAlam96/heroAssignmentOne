@@ -256,6 +256,50 @@ body {
     margin: 0;
 }
 
+/* Promo Vertical Section */
+.promo-vertical {
+  background-color: #f5f7fe;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.promo-vertical h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1c1c1e;
+  margin-bottom: 20px;
+}
+
+.promo-vertical p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.promo-btn {
+  display: inline-block;
+  background-color: #581845;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.promo-btn:hover {
+  background-color: #fb5534;
+}
+
+.promo-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
 /* Contact Section  */
 .contact-section {
     display: flex;
