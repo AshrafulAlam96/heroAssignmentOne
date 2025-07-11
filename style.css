@@ -28,7 +28,8 @@ body {
 }
 
 .logo {
-  font-size: 20px;
+  font-family: Cooper Black;
+  font-size: 25px;
   font-weight: 700;
   color: #581845;
   transition: font-weight 0.2s ease;
@@ -36,7 +37,7 @@ body {
   }
 
     .logo:hover {
-      font-size: 25px;
+      font-size: 30px;
       font-weight: bold;
       color: #1c1c1e;
     }
@@ -319,6 +320,56 @@ body {
 .contact-form button:hover {
     background-color: #fb5534;
 }
+
+/* Footer Section */
+.footer {
+  background-color: #f5f7fe;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  font-family: Cooper Black;
+  font-size: 36px;
+  font-weight: 800;
+  color: #581845;
+  margin-bottom: 16px;
+  transition: font-weight 0.2s ease;
+  cursor: pointer;
+}
+
+    .footer-logo:hover {
+      font-size: 30px;
+      font-weight: bold;
+      color: #1c1c1e;
+    }
+
+.footer-description {
+  font-size: 16px;
+  color: #6b7280;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-nav a:hover {
+  color: #581845;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
